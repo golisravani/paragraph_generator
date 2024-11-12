@@ -1,0 +1,71 @@
+body{
+    background-image: url(./para.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;    
+}
+.title{
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-family: "Madimi One", sans-serif;
+}
+.heading{
+    font-size: 30px;
+    color: white;
+    padding-right: 20px;
+    font-family: "Madimi One", sans-serif;
+}
+.paras{
+    position: absolute;
+    left: 40%;
+    padding: 20px;
+}
+button{
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+border: transparent;   
+    color: white;
+    background-color: #0a2a53;
+    border-radius: 30px;
+    font-family: "Madimi One", sans-serif;
+
+}
+button:hover{
+    color: rgb(13, 30, 70);
+    background-color: white;
+   transition: all 0.2s ease-in-out;
+   transform: scale(1.1);
+}
+
+.count{
+    padding-right: 20px;
+}
+.count input{
+    height: 30px;
+    font-size: 30px;
+    width: 8%;
+}
+.result{
+    justify-content: center;
+    color: rgb(19, 19, 97);
+    font-family: "Madimi One", sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+   
+    padding: 20px; /* Add padding for better readability */
+}
+.note{
+    color: rgb(19, 19, 97);
+    font-size: 20px;
+padding: 10px;
+font-weight: bold;
+}
